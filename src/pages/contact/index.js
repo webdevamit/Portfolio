@@ -33,11 +33,10 @@ export const ContactUs = () => {
         contactConfig.YOUR_SERVICE_ID,
         contactConfig.YOUR_TEMPLATE_ID,
         templateParams,
-        contactConfig.YOUR_USER_ID
+        contactConfig.YOUR_PUBLIC_KEY
       )
       .then(
         (result) => {
-          console.log(result.text);
           setFormdata({
             loading: false,
             alertmessage: "SUCCESS! ,Thankyou for your messege",
@@ -101,9 +100,9 @@ export const ContactUs = () => {
               </a>
               <br />
               <br />
-              {contactConfig.hasOwnProperty("YOUR_FONE") ? (
+              {contactConfig.hasOwnProperty("YOUR_PHONE") ? (
                 <p>
-                  <strong>Phone:</strong> {contactConfig.YOUR_FONE}
+                  <strong>Phone:</strong> {contactConfig.YOUR_PHONE}
                 </p>
               ) : (
                 ""

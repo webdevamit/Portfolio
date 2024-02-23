@@ -8,7 +8,7 @@ const meta = {
 const introdata = {
   title: "I’m Amit Chauhan",
   animated: {
-    first: "I am a passionate FrontEnd developer",
+    first: "I am a passionate FrontEnd Developer",
     second:
       "I am building eCommerce and Currency Trading web application since years",
     third: "I am a proud father",
@@ -62,117 +62,82 @@ const skills = [
     name: "TypeScript",
     value: 80,
   },
+  {
+    name: "NextJs",
+    value: 60,
+  },
+  {
+    name: "React Native",
+    value: 60,
+  },
 ];
 
 const services = [
   {
-    title: "UI & UX Design",
+    title: "Enterprise Application",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+      "Ability to create Enterprise UI applications using tools like React, Redux, Thunk, NextJs, Typescript, WebSockets, WebPack etc",
   },
   {
     title: "Mobile Apps",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    description: "Ability to create mobile application using react native.",
   },
   {
     title: "Wordpress Design",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+      "Ability to create WordPress Websites, Plugins, Woocommerce Plugins etc.",
   },
 ];
 
 const dataportfolio = [
   {
     img: "https://picsum.photos/400/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    description: "Threads clone built with Next js 14 for personal learning.",
+    link: "https://github.com/webdevamit/threads",
   },
   {
     img: "https://picsum.photos/400/800/?grayscale",
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+      "Next js 14 Dashboard with authentication - https://nextjs-dashboard-rho-olive-92.vercel.app/ ",
+    link: "https://github.com/webdevamit/nextjs-dashboard",
   },
   {
     img: "https://picsum.photos/400/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    description: "React based calender application",
+    link: "https://github.com/webdevamit/calendar",
   },
   {
     img: "https://picsum.photos/400/600/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    description: "React based nested comment system.",
+    link: "https://github.com/webdevamit/comment-box",
   },
   {
     img: "https://picsum.photos/400/300/?grayscale",
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+      "Enterprise currency trading application for traders which is used in organization",
     link: "#",
   },
   {
     img: "https://picsum.photos/400/700/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-
-  {
-    img: "https://picsum.photos/400/600/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/300/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/550/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/700/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+    description: "Ecommerce Point of sale system used by outlets.",
     link: "#",
   },
 ];
 
 const contactConfig = {
-  YOUR_EMAIL: "luckyamy000@gmail.com",
-  YOUR_FONE: "(555)123-4567",
+  YOUR_EMAIL: "amituk546@gmail.com",
+  YOUR_PHONE: "+91-8448170602",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-  // creat an emailjs.com account
+    "In case you want any of the services, help, or you want to hire me as an individual don't hesitate to contact me via email or contact number. ",
+  // create an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-  YOUR_SERVICE_ID: "service_id",
-  YOUR_TEMPLATE_ID: "template_id",
-  YOUR_USER_ID: "user_id",
+  YOUR_SERVICE_ID: process.env.REACT_APP_SERVICE_ID,
+  YOUR_TEMPLATE_ID: process.env.REACT_APP_TEMPLATE_ID,
+  YOUR_PUBLIC_KEY: process.env.REACT_APP_PUBLIC_KEY,
 };
 
 const socialprofils = {
   github: "https://github.com/webdevamit",
-  twitter: "https://twitter.com/webdevchauhan",
   facebook: "https://www.facebook.com/amy202020",
   linkedin: "https://www.linkedin.com/in/amit-chauhan-a2a26290/",
 };

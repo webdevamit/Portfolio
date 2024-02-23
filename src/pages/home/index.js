@@ -4,8 +4,16 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content";
 import { Link } from "react-router-dom";
+import resume from "./../../assets/amit-chauhan.pdf";
+import cover from "./../../assets/cover-letter.pdf";
 
 export const Home = () => {
+  const handleDownload = (e) => {
+    e.preventDefault();
+    window.open(resume);
+    window.open(cover);
+  };
+
   return (
     <HelmetProvider>
       <section id="home" className="home">
@@ -39,8 +47,16 @@ export const Home = () => {
                 </h1>
                 <p className="mb-1x">{introdata.description}</p>
                 <div className="intro_btn-action pb-5">
+                  <Link onClick={handleDownload} to="./" download>
+                    <div id="button_p" className="ac_btn btn">
+                      Download Resume & Cover Letter
+                      <div className="ring one"></div>
+                      <div className="ring two"></div>
+                      <div className="ring three"></div>
+                    </div>
+                  </Link>
                   <Link to="/portfolio" className="text_2">
-                    <div id="button_p" className="ac_btn btn ">
+                    <div id="button_n" className="ac_btn btn ">
                       My Portfolio
                       <div className="ring one"></div>
                       <div className="ring two"></div>
